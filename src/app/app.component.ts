@@ -22,7 +22,7 @@ export class AppComponent implements OnInit{
   }
 
   public setSocialMediaTags(url: string, title: string, description: string): void {
-    const imageUrl = './../assets/images/corona.jpg';
+    const imageUrl = './assets/images/corona.jpg';
     const tags = [
       new MetaTag(this.urlMeta, url, true),
       new MetaTag(this.titleMeta, title, true),
@@ -50,7 +50,7 @@ export class AppComponent implements OnInit{
   ngOnInit() {
     this.setTitle('Covid19 Srilanka Tracker');
     this.setSocialMediaTags(
-      'https://covid19lk.azurewebsites.net',
+      'Covid19 Srilanka Tracker',
       'Covid19 Srilanka Tracker',
       'Covid19 Srilanka Tracker Page');
   }
