@@ -1,0 +1,23 @@
+@import './../../assets/styles/mixins';
+
+.wrapper{
+  margin-top: 40px;
+
+  @include mobile{
+    margin-top: 10px;
+  }
+}
+
+.card-list{
+  margin-top: 40px;
+
+  @include mobile{
+    margin-top: 10px;
+  }
+
+  app-card{
+    @include mobile{
+      padding: 5px;
+    }
+  }
+}

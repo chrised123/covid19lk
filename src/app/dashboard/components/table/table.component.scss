@@ -1,0 +1,9 @@
+@import './../../../../assets/styles/mixins';
+
+.table-responsive{
+  margin-top: 40px;
+
+  @include mobile{
+    margin-top: 10px;
+  }
+}
