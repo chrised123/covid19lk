@@ -22,7 +22,7 @@ export class AppComponent implements OnInit{
   }
 
   public setSocialMediaTags(url: string, title: string, description: string): void {
-    const imageUrl = './assets/images/corona.jpg';
+    const imageUrl = 'https://covid19lk.azurewebsites.net/assets/images/corona.jpg';
     const tags = [
       new MetaTag(this.urlMeta, url, true),
       new MetaTag(this.titleMeta, title, true),
