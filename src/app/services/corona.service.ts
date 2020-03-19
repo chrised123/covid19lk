@@ -8,6 +8,6 @@ export class CoronaService {
     constructor(private http: HttpClient) {}
 
     fetch() {
-        return this.http.get(`http://hpb.health.gov.lk/api/get-current-statistical`);
+        return this.http.get(`//hpb.health.gov.lk/api/get-current-statistical`);
     }
 }

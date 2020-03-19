@@ -5,6 +5,7 @@ export class HospitalData {
   foreignInspection: number;
   localTreatment: number;
   foreignTreatment: number;
+  updatedAt: Date;
 
   constructor(data){
     this.id = data.id;

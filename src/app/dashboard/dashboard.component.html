@@ -4,20 +4,20 @@
 
     <h3>Srilankan stats</h3>
     <div class="card-list row">
-      <app-card class="col" title="Total cases" [value]="viewState.localCases.totalCases"></app-card>
-      <app-card class="col" title="New cases" [value]="viewState.localCases.newCases"></app-card>
-      <app-card class="col text-danger" title="Total deaths" [value]="viewState.localCases.totalDeaths"></app-card>
-      <app-card class="col text-danger" title="New deaths" [value]="viewState.localCases.newDeaths"></app-card>
-      <app-card class="col text-success" title="Total Recovered" [value]="viewState.localCases.totalRecovered"></app-card>
+      <app-card class="col" type="warning" title="Total cases" [value]="viewState.localCases.totalCases"></app-card>
+      <app-card class="col" type="warning" title="New cases" [value]="viewState.localCases.newCases"></app-card>
+      <app-card class="col" [type]="emitType(viewState.localCases.totalDeaths)" title="Total deaths" [value]="viewState.localCases.totalDeaths"></app-card>
+      <app-card class="col" [type]="emitType(viewState.localCases.newDeaths)" title="New deaths" [value]="viewState.localCases.newDeaths"></app-card>
+      <app-card class="col" type="success" title="Total Recovered" [value]="viewState.localCases.totalRecovered"></app-card>
     </div>
     <hr>
     <h3>Global stats</h3>
     <div class="card-list row">
-      <app-card class="col" title="Total cases" [value]="viewState.foreignCases.totalCases"></app-card>
-      <app-card class="col" title="New cases" [value]="viewState.foreignCases.newCases"></app-card>
-      <app-card class="col text-danger" title="Total deaths" [value]="viewState.foreignCases.totalDeaths"></app-card>
-      <app-card class="col text-danger" title="New deaths" [value]="viewState.foreignCases.newDeaths"></app-card>
-      <app-card class="col text-success" title="Total Recovered" [value]="viewState.foreignCases.totalRecovered"></app-card>
+      <app-card class="col" type="warning" title="Total cases" [value]="viewState.foreignCases.totalCases"></app-card>
+      <app-card class="col" type="warning" title="New cases" [value]="viewState.foreignCases.newCases"></app-card>
+      <app-card class="col" type="danger" title="Total deaths" [value]="viewState.foreignCases.totalDeaths"></app-card>
+      <app-card class="col" type="danger" title="New deaths" [value]="viewState.foreignCases.newDeaths"></app-card>
+      <app-card class="col" type="success" title="Total Recovered" [value]="viewState.foreignCases.totalRecovered"></app-card>
     </div>
   </div>
 

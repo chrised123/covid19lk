@@ -14,6 +14,13 @@ export class DashboardComponent implements OnInit {
     public viewState: DashboardViewState
   ) { }
 
+  emitType = (count) => {
+    if (count > 0) {
+      return 'danger';
+    }
+    return 'success';
+  }
+
   ngOnInit(): void {
     this.operation.start();
   }

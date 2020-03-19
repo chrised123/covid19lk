@@ -1,3 +1,4 @@
+@import './../../../../assets/styles/variables';
 @import './../../../../assets/styles/mixins';
 
 .card{
@@ -22,6 +23,8 @@
 
   .card-title{
     margin: 0;
+    font-size: 16px;
+
     @include mobile{
       font-size: 12px;
     }
@@ -35,4 +38,17 @@
   }
 }
 
+.bg-danger{
+  background-color: $danger;
+  color: $text-light;
+}
 
+.bg-success{
+  background-color: $danger;
+  color: $text-light;
+}
+
+.bg-warning{
+  background-color: $danger;
+  color: $text-dark;
+}
