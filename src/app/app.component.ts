@@ -48,11 +48,11 @@ export class AppComponent implements OnInit{
   }
 
   ngOnInit() {
-    this.setTitle('Covid19 Srilanka Tracker');
+    this.setTitle('Covid19 Sri Lanka Tracker');
     this.setSocialMediaTags(
-      'Covid19 Srilanka Tracker',
-      'Covid19 Srilanka Tracker',
-      'Covid19 Srilanka Tracker Page');
+      'Covid19 Sri Lanka Tracker',
+      'Covid19 Sri Lanka Tracker',
+      'Covid19 Sri Lanka Tracker Page');
   }
 }
 

@@ -2,7 +2,7 @@
 <div class="container">
   <div class="wrapper" *ngIf="viewState.localCases">
 
-    <h3>Srilankan stats</h3>
+    <h3>Sri Lankan stats</h3>
     <div class="card-list row">
       <app-card class="col" type="warning" title="Total cases" [value]="viewState.localCases.totalCases"></app-card>
       <app-card class="col" type="warning" title="New cases" [value]="viewState.localCases.newCases"></app-card>
@@ -20,6 +20,10 @@
       <app-card class="col" type="success" title="Total Recovered" [value]="viewState.foreignCases.totalRecovered"></app-card>
     </div>
   </div>
+
+  <hr>
+  <h4>Hospital data map</h4>
+  <div class="google-map-container" #gmap></div>
 
   <hr>
   <app-table></app-table>
