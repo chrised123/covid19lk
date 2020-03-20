@@ -1,7 +1,7 @@
 <app-header></app-header>
 <div class="container">
+  <span class="modified-time float-right text-disabled">Last modified - {{viewState.lastModified}}</span>
   <div class="wrapper" *ngIf="viewState.localCases">
-
     <h3>Sri Lankan stats</h3>
     <div class="card-list row">
       <app-card class="col" type="warning" title="Total cases" [value]="viewState.localCases.totalCases"></app-card>
