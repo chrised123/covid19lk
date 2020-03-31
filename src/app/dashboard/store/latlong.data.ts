@@ -15,7 +15,16 @@ const latLong = {
   'Teaching Hospital - Kalubowila': {lat: 6.8668909, lng: 79.8768611},
   'Teaching Hospital – Rathnapura': {lat: 6.686824499999999, lng: 80.39308770000001},
   'Provincial General Hospital – Badulla': {lat: 6.9918084, lng: 81.05235019999999},
-  'DeSoysa Maternity Hospital': {lat: 6.9199923, lng: 79.8705518}
+  'DeSoysa Maternity Hospital': {lat: 6.9199923, lng: 79.8705518},
+  'Castle Street Teaching Hospital': { lat: 6.9096708, lng: 79.8849839 },
+  'District General Hospital-Kalutara': { lat: 6.5632277, lng: 79.9852609 },
+  'Base Hospital- Hambantota': { lat: 6.127542999999999, lng: 81.1221932 },
+  'Base Hospital - Monaragala': { lat: 6.8913557, lng: 81.3425783 },
+  'Base Hospital - Welikanda': { lat: 7.9481171, lng: 81.2460396 },
+  'Chest Hospital Welisara': { lat: 7.024886299999999, lng: 79.9035275 },
+  'Base Hospital - Mulleriyawa': { lat: 6.924892799999999, lng: 79.9429138 },
+  'Base Hospital - Homagama': { lat: 6.848052099999999, lng: 79.9916554 },
+  'Dr. Nevil Fernando Hospital': { lat: 6.9244512, lng: 79.96258859999999 }
 }
 
 export default latLong;
